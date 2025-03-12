@@ -140,11 +140,11 @@ MEDIA_URL = '/images/'
 
 JAZZMIN_SETTINGS = {
     "site_title": "My Admin Panel",
-    "site_header": "GDG Admin Panel",
+    # "site_header": "KLK Admin Panel",
     "site_logo": "images/klk.png",
     "site_brand": "KLK Management System",
-    "welcome_sign": "Welcome to GDG Admin.",
-    "login_logo": "images/gdg.png",
+    "welcome_sign": "Welcome to KLK Admin.",
+    "login_logo": "images/klk.png",
     "copyright": "KLK Management System",
     "show_ui_builder": True,
     "changeform_format": "carousel",
