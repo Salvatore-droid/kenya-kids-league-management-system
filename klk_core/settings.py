@@ -139,6 +139,7 @@ MEDIA_URL = '/images/'
 
 
 JAZZMIN_SETTINGS = {
+    "changeform_format": "carousel",
     "site_title": "My Admin Panel",
     # "site_header": "KLK Admin Panel",
     "site_logo": "images/klk.png",
@@ -147,8 +148,6 @@ JAZZMIN_SETTINGS = {
     "login_logo": "images/klk.png",
     "copyright": "KLK Management System",
     "show_ui_builder": True,
-    "changeform_format": "carousel",
-    "changeform_format_overrides": {"auth.user": "collapsible", "auth.group": "vertical_tabs"},
 }
 JAZZMIN_UI_TWEAKS = {
     "navbar_small_text": True,
